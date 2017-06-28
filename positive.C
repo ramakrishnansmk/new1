@@ -6,6 +6,7 @@ printf("enter a number:");
 scanf("%lf",&num);
 if(num<=0.0)
 {
+  if(num==0.0)
 printf("you entered 0");
 else
 printf("you entered a negative number");
