@@ -1,0 +1,12 @@
+#include<studio.h>
+int main()
+{
+char c;
+printf("enter a character");
+scanf("%c",&c);
+if((c>='a' && c<='z') || (c>='A' && c<='Z'))
+printf("%c is an alphapet",c);
+else
+printf("%c is not an alphapet",c);
+return 0;
+}
